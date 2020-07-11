@@ -1,0 +1,32 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-content {
+  width: 70%;
+
+}
+
+.heading {
+  font-size: 4.5rem;
+}
+
+.subheading {
+  font-size: 2rem;
+}
+
+.hero-btn-group {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+.hero-btn-group button {
+  margin: 1rem;
+}

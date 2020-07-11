@@ -1,0 +1,33 @@
+.App {
+}
+
+.nav-bar {
+  width: 95%;
+  background: inherit;
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 1rem;
+}
+
+.logo {
+
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link {
+  color: var(--light);
+  font-weight: bold;
+  transition: var(--transition);
+}
+
+.nav-link:hover {
+  background: rgba(255,255,255, 0.3);
+}
+
+.active {
+  background: rgba(255,255,255, 0.3);
+}
