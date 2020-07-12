@@ -17,6 +17,7 @@
 }
 
 .subheading {
+  margin-top: 2rem;
   font-size: 2rem;
 }
 
@@ -25,8 +26,28 @@
   display: flex;
   justify-content: center;
 
+
 }
 
 .hero-btn-group button {
   margin: 1rem;
+}
+
+.hero-down-arrow {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.hero-down-arrow a {
+  color: var(--light);
+  transition: var(--transition);
+}
+
+.hero-down-arrow a:hover {
+  opacity: 0.5;
+}
+
+.hero-down-arrow .material-icons {
+  font-size: 5rem;
+  cursor: pointer;
 }

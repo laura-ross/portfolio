@@ -1,0 +1,22 @@
+I began teaching myself web development in April 2019. I started with the basics--HTML5 & CSS3--in order to create a solid foundation. Then I moved to Javascript and after that ReactJS. After spending hours upon hours practicing, experimenting, google searching, asking questions/finding answers on stackoverflow, and utilizing many other resources, I have finally developed a proficiency in these technologies. Currently I am brushing up on my vanilla Javascript skills. 
+
+Along this journey, I also got to use a few backend technologies, including NodeJS, ExpressJS, and MongoDB/Mongoose.
+
+
+
+
+
+
+
+
+
+<Switch>
+            <Route exact path="/" component={Home}  />
+            <Route path="/portfolio" component={Portfolio}  />
+            <Route path="/about" component={About}  />
+            <Route path="/contact" component={Contact}  />
+          </Switch>
+
+
+
+

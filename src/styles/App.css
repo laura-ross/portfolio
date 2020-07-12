@@ -2,11 +2,13 @@
 }
 
 .nav-bar {
-  width: 95%;
+  width: 100%;
   background: inherit;
   display: flex;
   justify-content: space-between;
-  margin: 4rem 1rem;
+  padding: 2.5rem;
+  background: var(--primary);
+
 }
 
 .logo {

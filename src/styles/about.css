@@ -1,0 +1,18 @@
+.about {
+  padding: 3rem;
+
+}
+
+.about-content {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-content h2 {
+  text-align: center;
+}
+
+.about-content p {
+  margin-top: 2.5rem;
+}
