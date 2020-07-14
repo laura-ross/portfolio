@@ -7,19 +7,35 @@
   margin-bottom: 2rem;
 }
 
+.portfolio h2,
+.portfolio h3,
+.portfolio p,
+.portfolio li {
+  color: var(--primary);
+}
+
+.portfolio h3 {
+  margin-top: 1.5rem;
+}
+
 .portfolio-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
+
 }
 
 .project {
   display: flex;
-  margin: 3rem;
+  margin: 5rem 3rem;
   align-items: center;
+}
 
+@media(max-width: 1500px) {
+  .project {
+    flex-direction: column;
+  }
 }
 
 .project-content {
@@ -28,10 +44,11 @@
 }
 
 .project-content,
-.project-img {
-  padding: 1rem;
+.project-img-container {
+  padding: 2rem;
 }
 
 .project-img {
+  box-shadow: 4px 4px 10px var(--dark);
 
 }

@@ -13,12 +13,13 @@
 }
 
 .heading {
-  font-size: 4.5rem;
+  font-size: 6.5rem;
 }
 
 .subheading {
-  margin-top: 2rem;
-  font-size: 2rem;
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
 
 .hero-btn-group {

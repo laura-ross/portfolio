@@ -5,7 +5,12 @@ Along this journey, I also got to use a few backend technologies, including Node
 
 
 
+Resume
 
+Skills
+Education
+Relevant Experience
+Contact
 
 
 
@@ -19,4 +24,9 @@ Along this journey, I also got to use a few backend technologies, including Node
 
 
 
+
+<div className="hero-btn-group">
+              <button className="btn primary-btn">Portfolio</button>
+              <button className="btn secondary-btn">Resume</button>
+            </div>
 

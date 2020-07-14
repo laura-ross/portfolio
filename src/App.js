@@ -18,6 +18,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './styles/App.css';
 import './styles/portfolio.css';
 import './styles/about.css';
+import './styles/resume.css';
 import Home from './components/Home';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -31,8 +32,6 @@ library.add(
       );
 
 function App() {
-
-
 
   let navLinkStyle = {
     padding: '2rem'
@@ -49,6 +48,8 @@ function App() {
 
             <li><a href="#portfolio" className="nav-link" style={navLinkStyle}>Portfolio</a></li>
 
+            <li><a href="#resume" className="nav-link" style={navLinkStyle}>Resume</a></li>
+
             <li><a href="#about" className="nav-link" style={navLinkStyle}>About</a></li>
 
             <li><a href="#footer" className="nav-link" style={navLinkStyle}>Contact</a></li>
@@ -58,11 +59,8 @@ function App() {
         <header className="hero" id="hero">
           <div className="hero-content">
             <h1 className="heading">Hello, I'm Laura.</h1>
-            <h2 className="subheading">I am a front end web developer with some back end experience.</h2>
-            <div className="hero-btn-group">
-              <button className="btn primary-btn">Portfolio</button>
-              <button className="btn secondary-btn">Resume</button>
-            </div>
+            <h2 className="subheading">I am a front end developer with some back end experience.</h2>
+
           </div>
 
           <div className="hero-down-arrow" >
@@ -75,47 +73,78 @@ function App() {
         </header>
 
         <section className="portfolio" id="portfolio">
-          <div className="portfolio-content">
-            <h2>Projects</h2>
-              <a href="#" className="link secondary-link">View Website Source Code</a>
+          <div className="portfolio-content section-global-styles">
+            <h2>Portfolio</h2>
+              <a href="https://github.com/laura-ross/portfolio.git" className="link secondary-link">View Website Source Code</a>
 
 
             <div className="project">
+              <div className="project-img-container">
+                <img src="tasktimer.png" className="project-img"/>
+              </div>
               <div className="project-content">
+                <h3>Description: </h3>
+                <p>A browser based timer that allowes you to time a project you are working on and store it in a task history via local storage.</p>
                 <h3>Tech used:</h3>
                 <ul>
+                  <li>ReactJS - useContext, useEffect</li>
+                  <li>HTML5/CSS3</li>
                 </ul>
-                <a href="#" className="link primary-link">Live Version</a>
-                <a href="#" className="link secondary-link">Source Code</a>
-              </div>
-              <div className="project-img">
-                <img src="blankphoto.jpg"/>
+                <a href="https://festive-fermi-e130cc.netlify.app/" className="link primary-link">Live Version</a>
+                <a href="https://github.com/laura-ross/task-timer.git" className="link secondary-link">Source Code</a>
               </div>
             </div>
 
             <div className="project">
-              <div className="project-content">
-              <h3>Tech used:</h3>
-              <ul>
-              </ul>
-              <a href="#" className="link primary-link">Live Version</a>
-              <a href="#" className="link secondary-link">Source Code</a>
+              <div className="project-img-container">
+                <img src="recipeapp.jpg" className="project-img"/>
               </div>
-              <div className="project-img">
-                <img src="blankphoto.jpg"/>
+              <div className="project-content">
+                <h3>Description: </h3>
+                <p>A browser based recipe app where users can add, remove, and edit recipes. Also uses local storage. See the full version <a href="#">here</a>.</p>
+                <h3>Tech used:</h3>
+                <ul>
+                <li>ReactJS - class based components</li>
+                <li>HTML5/CSS3</li>
+                </ul>
+                <a href="https://eager-galileo-41baa2.netlify.app/" className="link primary-link">Live Version</a>
+                <a href="https://github.com/laura-ross/All-My-Recipes---Recipes-Component-Only.git" className="link secondary-link">Source Code</a>
+              </div>
+            </div>
+
+            <div className="project">
+              <div className="project-img-container">
+                <img src="oldpioneerstore.jpg" className="project-img"/>
+              </div>
+              <div className="project-content">
+                <h3>Description: </h3>
+                <p>A revamp of one of my favorite small businesses. NOTE: The routing is functional but the shopping cart portion is not. I simply wanted to see if I could reimagine a current design using current branding/colors/content. See the original website <a href="http://www.theoldpioneerstore.com/">here</a>.</p>
+                <h3>Tech used:</h3>
+                <ul>
+                <li>ReactJS - React Router</li>
+                <li>HTML5/CSS3 - CSS Grid</li>
+                </ul>
+                <a href="https://elated-bohr-13f7cb.netlify.app/" className="link primary-link">Live Version</a>
+                <a href="https://github.com/laura-ross/Local_Business_Redesign.git" className="link secondary-link">Source Code</a>
               </div>
             </div>
           </div>
         </section>
 
+        <section className="resume" id="resume">
+          <div className="resume-content section-global-styles">
+          <h2>Resume</h2>
+          </div>
+        </section>
+
         <section className="about" id="about">
-          <div className="about-content">
+          <div className="about-content section-global-styles">
             <h2>About</h2>
             <p>I began teaching myself web development in April 2019. I started with the basics, HTML5 & CSS3, in order to create a solid foundation. Then I moved to Javascript and after that, ReactJS.</p>
 
-            <p>After spending hours upon hours practicing, experimenting, google searching, asking questions/finding answers on stackoverflow, and utilizing many other resources, I have finally developed a proficiency in these technologies. Currently I am brushing up on my vanilla Javascript skills. </p>
+            <p>After spending hours upon hours practicing, experimenting, google searching, and utilizing many other resources, I have finally developed a proficiency in these technologies. Currently I am brushing up on my vanilla Javascript skills. </p>
 
-            <p>Along this journey, I also got to use a few backend technologies, including NodeJS, ExpressJS, and MongoDB/Mongoose.Although these have not been my focus, I do have a good amount of working knowledge of them.</p>
+            <p>Along this journey, I also got to use a few backend technologies, including NodeJS, ExpressJS, and MongoDB/Mongoose. Although these have not been my focus, I do have a good amount of working knowledge of them.</p>
 
 
           </div>
