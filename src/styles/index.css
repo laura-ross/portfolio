@@ -20,14 +20,15 @@ html {
   line-height: 2.5rem;
 
 }
-/*font-family: 'Josefin Sans', sans-serif;*/
+
 
 
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    font-family: 'Josefin Sans', sans-serif;
+  /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif;*/
     background-color: var(--primary);
     color: var(--light);
 }
@@ -107,8 +108,8 @@ a, li, p {
 }
 
 .primary-link:hover {
-  color: var(--dark);
-  background: var(--light);
+  color: var(--primary);
+  background: inherit;
 }
 
 .secondary-link {

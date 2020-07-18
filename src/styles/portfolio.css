@@ -49,6 +49,8 @@
 }
 
 .project-img {
+  width: 550px;
+  height: 450px;
   box-shadow: 4px 4px 10px var(--dark);
 
 }

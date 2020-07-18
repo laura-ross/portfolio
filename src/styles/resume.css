@@ -1,4 +1,38 @@
 .resume {
   background: white;
-  color: var(--dark);
+  color: var(--primary);
+}
+
+.flex-container {
+  display: flex;
+}
+
+.resume-padding {
+  padding-top: 6rem;
+}
+
+.resume-padding ul{
+  padding-top: 2.2rem;
+
+}
+
+.resume-padding ul li {
+  list-style-type: disc;
+}
+
+.resume-intro-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container {
+  justify-content: space-around;
+}
+
+@media(max-width: 1200px) {
+  .flex-container {
+    flex-direction: column;
+  }
 }
