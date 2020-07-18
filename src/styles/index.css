@@ -131,5 +131,6 @@ a, li, p {
 @media(max-width: 1400px) {
   .section-global-styles {
     width: 95%;
+      padding: 4rem 2.5rem;
   }
 }

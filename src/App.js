@@ -37,8 +37,8 @@ library.add(
 
 
 
-      let desktopNavStyle = "desktop-nav-links";
-      let mobileNavStyle = "mobile-nav-links hide";
+let desktopNavStyle = "desktop-nav-links";
+let mobileNavStyle = "mobile-nav-links hide";
 
 
 
@@ -116,9 +116,9 @@ function App() {
         </header>
 
         <section className="portfolio" id="portfolio">
-          <div className="portfolio-content section-global-styles">
+          <div className="portfolio-content ">
             <h2>Portfolio</h2>
-              <a href="https://github.com/laura-ross/portfolio.git" className="link secondary-link">View Website Source Code</a>
+              <a href="https://github.com/laura-ross/portfolio.git" className="link secondary-link">Website Source Code</a>
 
 
             <div className="project">
