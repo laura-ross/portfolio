@@ -1,9 +1,10 @@
 .footer {
 
   margin: 0 auto;
-  padding-top: 6rem;
+  padding-top: 10rem;
   text-align: center;
   background: var(--dark);
+  clip-path: polygon(49% 17%, 100% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0);
 
 }
 

@@ -102,17 +102,8 @@ function App() {
         <header className="hero" id="hero">
           <div className="hero-content">
             <h1 className="heading">Hello, I'm Laura.</h1>
-            <h2 className="subheading">I am a front end developer with some back end experience.</h2>
-
+            <h2 className="subheading">I am a front end developer with back end experience.</h2>
           </div>
-
-          <div className="hero-down-arrow" >
-            <a href="#portfolio">
-              <span className="material-icons">
-            expand_more</span>
-            </a>
-          </div>
-
         </header>
 
         <section className="portfolio" id="portfolio">
@@ -247,18 +238,18 @@ function App() {
 
         <footer className="footer" id="footer">
           <h2>Get in Touch!</h2>
-          <p>smalltowngirl591@gmail.com</p>
+          <p>laura.e.ross@gmail.com</p>
 
           <ul className="social-links section-global-styles">
-            <li><a href="#" className="tooltip">
+            <li><a href="www.linkedin.com/in/laura-ross20" className="tooltip">
               <FontAwesomeIcon icon={faLinkedinIn} size="lg" className="fa-icon"/>
               <span className="tooltiptext">Connect with me on LinkedIn</span>
             </a></li>
-            <li><a href="#" className="tooltip">
+            <li><a href="https://twitter.com/LauraRo77706948" className="tooltip">
               <FontAwesomeIcon icon={faTwitter} size="lg" className="fa-icon"/>
               <span className="tooltiptext">Follow me on twitter</span>
             </a></li>
-            <li><a href="#" className="tooltip">
+            <li><a href="https://github.com/laura-ross" className="tooltip">
               <FontAwesomeIcon icon={faGithubAlt} size="lg" className="fa-icon"/>
               <span className="tooltiptext">View all my source code on Github</span>
             </a></li>
