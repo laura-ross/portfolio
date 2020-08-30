@@ -1,11 +1,5 @@
 import React, { useState } from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Link,
-  useHistory
- } from 'react-router-dom';
+
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
@@ -64,8 +58,6 @@ function App() {
 
 
   return (
-
-    <Router>
       <div className="App">
         <nav className="nav-bar">
           <div className="logo">
@@ -117,11 +109,13 @@ function App() {
                 <img src="tasktimer.png" className="project-img"/>
               </div>
               <div className="project-content">
+                <h2>Task Timer</h2>
                 <h3>Description: </h3>
-                <p>A browser based timer that allowes you to time a project you are working on and store it in a task history via local storage.</p>
+                <p>A browser based timer that allowes users to time a project they are working on and store it in a task history.</p>
                 <h3>Tech used:</h3>
                 <ul>
                   <li>ReactJS - useContext, useEffect</li>
+                  <li>LocalStorage</li>
                   <li>HTML5/CSS3</li>
                 </ul>
                 <a href="https://festive-fermi-e130cc.netlify.app/" className="link primary-link">Live Version</a>
@@ -134,11 +128,13 @@ function App() {
                 <img src="recipeapp.jpg" className="project-img"/>
               </div>
               <div className="project-content">
+              <h2>All My Recipes</h2>
                 <h3>Description: </h3>
-                <p>A browser based recipe app where users can add, remove, and edit recipes. Also uses local storage. See the source code for the full version <a href="https://github.com/laura-ross/All-My-Recipes-Full-Version.git">here</a>. (This is a work in progress, but it has a backend/database with a register/login system)</p>
+                <p>A browser based recipe app where users can add, remove, and edit recipes. See the source code for the full version <a href="https://github.com/laura-ross/All-My-Recipes-Full-Version.git">here</a>. (This is a work in progress, but it has a backend/database with a register/login system)</p>
                 <h3>Tech used:</h3>
                 <ul>
                 <li>ReactJS - class based components</li>
+                <li>localStorage</li>
                 <li>HTML5/CSS3</li>
                 </ul>
                 <a href="https://eager-galileo-41baa2.netlify.app/" className="link primary-link">Live Version</a>
@@ -148,11 +144,33 @@ function App() {
 
             <div className="project">
               <div className="project-img-container">
+                <img src="sticky-notes.png" className="project-img"/>
+              </div>
+              <div className="project-content">
+                <h2>Sticky Notes App</h2>
+                <h3>Description: </h3>
+                <p>A browser based sticky notes app that allows users to add a remove sticky notes & save them on local storage. Work in progress, but this is what is completed so far.</p>
+                <h3>Tech used:</h3>
+                <ul>
+                  <li>Vanilla Javascript - DOM manipulation, Object Oriented Programming</li>
+                  <li>LocalStorage</li>
+                  <li>Bootstrap 4</li>
+                  <li>SASS</li>
+                  <li>HTML5/CSS3</li>
+                </ul>
+                <a href="https://angry-knuth-efd3f0.netlify.app/" className="link primary-link">Live Version</a>
+                <a href="https://github.com/laura-ross/Sticky-Notes-App.git" className="link secondary-link">Source Code</a>
+              </div>
+            </div>
+
+            <div className="project">
+              <div className="project-img-container">
                 <img src="oldpioneerstore.jpg" className="project-img"/>
               </div>
               <div className="project-content">
+                <h2>Local Business Redesign</h2>
                 <h3>Description: </h3>
-                <p>A revamp of one of my favorite small businesses. NOTE: The routing is functional but the shopping cart portion is not. I simply wanted to see if I could reimagine a current design using current branding/colors/content. See the original website <a href="http://www.theoldpioneerstore.com/">here</a>.</p>
+                <p>A revamp of one of my favorite small businesses. NOTE: The routing is functional but the shopping cart portion is not. I simply wanted show that I could reimagine a current design using current branding/colors/content. See the original website for comparison <a href="http://www.theoldpioneerstore.com/">here</a>.</p>
                 <h3>Tech used:</h3>
                 <ul>
                 <li>ReactJS - React Router</li>
@@ -168,7 +186,7 @@ function App() {
         <section className="resume" id="resume">
           <div className="resume-content section-global-styles">
             <div className="resume-intro-content">
-              <p>At this point, I do not have any paid/professional development experience. Below is some relevent info & fun facts about myself. If you like what you see but I am lacking any skills or knowledge, feel free to contact me and we can chat about it. I am 100% open to learning any technology that your business uses. </p>
+              <p>At this point, I do not have any paid/professional development experience. Below is some relevent info & fun facts about myself. If you like what you see but prefer to see some other skills or knowledge, feel free to contact me and we can chat about it. I am 100% open to learning any technology that your business uses. </p>
 
               <a href="/Resume_Laura_Ross.pdf" className="link primary-link resume-link">Resume</a>
             </div>
@@ -189,16 +207,16 @@ function App() {
                 <li>InDesign</li>
               </ul>
               <ul>
-                <h3>Experience in but still a lot to learn:</h3>
+                <h3>Experience in:</h3>
                 <li>ExpressJS</li>
                 <li>NodeJS</li>
                 <li>MongoDB</li>
                 <li>Photoshop</li>
               </ul>
               <ul>
-                <h3>Currently learning:</h3>
-                <li>Git</li>
-                <li>CSS Animation</li>
+                <h3>Currently working on:</h3>
+                <li><p>An expense tracker using</p>
+                <p>vanilla Javascript & Bootstrap</p></li>
               </ul>
               </div>
               <ul>
@@ -227,11 +245,9 @@ function App() {
             <h2>About</h2>
             <p>I began teaching myself web development in April 2019. I started with the basics, HTML5 & CSS3, in order to create a solid foundation. Then I moved to Javascript and after that, ReactJS.</p>
 
-            <p>After spending hours upon hours practicing, experimenting, google searching, and utilizing many other resources, I have finally developed a proficiency in these technologies. Currently I am brushing up on my vanilla Javascript skills. </p>
+            <p>After spending hours upon hours practicing, experimenting, google searching, and utilizing many other resources, I have finally developed a proficiency in these technologies. Currently I am working on a side project in order to help me go deeper into vanilla Javascript as well as understand Objected Oriented Programming at a more advanced level. </p>
 
-            <p>Along this journey, I also got to use a few backend technologies, including NodeJS, ExpressJS, and MongoDB/Mongoose. Although these have not been my focus, I do have a good amount of working knowledge of them.</p>
-
-
+            <p>Along this journey, I also got to use a few backend technologies, including NodeJS, ExpressJS, and MongoDB/Mongoose. Although these have not been my focus, I do have a good understanding of how to use them.</p>
           </div>
         </section>
 
@@ -241,11 +257,11 @@ function App() {
           <p>laura.e.ross@gmail.com</p>
 
           <ul className="social-links section-global-styles">
-            <li><a href="www.linkedin.com/in/laura-ross20" className="tooltip">
+            <li><a href="https://www.linkedin.com/in/laura-ross20/" className="tooltip">
               <FontAwesomeIcon icon={faLinkedinIn} size="lg" className="fa-icon"/>
               <span className="tooltiptext">Connect with me on LinkedIn</span>
             </a></li>
-            <li><a href="https://twitter.com/LauraRo77706948" className="tooltip">
+            <li><a href="https://twitter.com/LTheBossRoss" className="tooltip">
               <FontAwesomeIcon icon={faTwitter} size="lg" className="fa-icon"/>
               <span className="tooltiptext">Follow me on twitter</span>
             </a></li>
@@ -257,7 +273,7 @@ function App() {
           <p>&copy; Laura Ross 2020</p>
         </footer>
       </div>
-    </Router>
+
   );
 }
 
