@@ -213,11 +213,6 @@ function App() {
                 <li>MongoDB</li>
                 <li>Photoshop</li>
               </ul>
-              <ul>
-                <h3>Currently working on:</h3>
-                <li><p>An expense tracker using</p>
-                <p>vanilla Javascript & Bootstrap</p></li>
-              </ul>
               </div>
               <ul>
                 <li>I've become a pro at researching solutions to development problems</li>
