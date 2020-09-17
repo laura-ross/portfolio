@@ -110,11 +110,13 @@ function App() {
               </div>
               <div className="project-content">
                 <h2>Task Timer</h2>
-                <h3>Description: </h3>
-                <p>A browser based timer that allowes users to time a project they are working on and store it in a task history.</p>
+                <h3>Challenge:</h3>
+                <p>To allow users to time whatever it is they are doing and store it in a task history.</p>
                 <h3>Tech used:</h3>
                 <ul>
                   <li>ReactJS - useContext, useEffect</li>
+                  <li>Timing Event Methods</li>
+                  <li>Responsive web design</li>
                   <li>LocalStorage</li>
                   <li>HTML5/CSS3</li>
                 </ul>
@@ -128,12 +130,13 @@ function App() {
                 <img src="recipeapp.jpg" className="project-img"/>
               </div>
               <div className="project-content">
-              <h2>All My Recipes</h2>
-                <h3>Description: </h3>
-                <p>A browser based recipe app where users can add, remove, and edit recipes. See the source code for the full version <a href="https://github.com/laura-ross/All-My-Recipes-Full-Version.git">here</a>. (This is a work in progress, but it has a backend/database with a register/login system)</p>
+              <h2>Recipe App</h2>
+                <h3>Challenge: </h3>
+                <p>Allow users to add, remove, and edit recipes and have them persist upon closing and reopening the browser. See the source code for the full version <a href="https://github.com/laura-ross/All-My-Recipes-Full-Version.git">here</a>. (This is a work in progress, but it has a backend/database with a register/login system)</p>
                 <h3>Tech used:</h3>
                 <ul>
                 <li>ReactJS - class based components</li>
+                <li>Responsive web design</li>
                 <li>localStorage</li>
                 <li>HTML5/CSS3</li>
                 </ul>
@@ -148,14 +151,15 @@ function App() {
               </div>
               <div className="project-content">
                 <h2>Sticky Notes App</h2>
-                <h3>Description: </h3>
-                <p>A browser based sticky notes app that allows users to add a remove sticky notes & save them on local storage. Work in progress, but this is what is completed so far.</p>
+                <h3>Challenge: </h3>
+                <p>Allow users to add and remove sticky notes from the browser and have them persist upon closing/reopening the browser. Also give it a fun looking design</p>
                 <h3>Tech used:</h3>
                 <ul>
                   <li>Vanilla Javascript - DOM manipulation, Object Oriented Programming</li>
                   <li>LocalStorage</li>
                   <li>Bootstrap 4</li>
                   <li>SASS</li>
+                  <li>Responsive web design</li>
                   <li>HTML5/CSS3</li>
                 </ul>
                 <a href="https://angry-knuth-efd3f0.netlify.app/" className="link primary-link">Live Version</a>
@@ -174,6 +178,7 @@ function App() {
                 <h3>Tech used:</h3>
                 <ul>
                 <li>ReactJS - React Router</li>
+                <li>Responsive web design</li>
                 <li>HTML5/CSS3 - CSS Grid</li>
                 </ul>
                 <a href="https://elated-bohr-13f7cb.netlify.app/" className="link primary-link">Live Version</a>
@@ -186,7 +191,7 @@ function App() {
         <section className="resume" id="resume">
           <div className="resume-content section-global-styles">
             <div className="resume-intro-content">
-              <p>At this point, I do not have any paid/professional development experience. Below is some relevent info & fun facts about myself. If you like what you see but prefer to see some other skills or knowledge, feel free to contact me and we can chat about it. I am 100% open to learning any technology that your business uses. </p>
+              <p>Below is some relevent info & fun facts about myself. If you like what you see but prefer to see some other skills or knowledge, feel free to contact me and we can chat about it. I am 100% open to learning any technology that your business uses. </p>
 
               <a href="/Resume_Laura_Ross.pdf" className="link primary-link resume-link">Resume</a>
             </div>
@@ -219,7 +224,7 @@ function App() {
                 <li>I am constantly learning new tech, striving to go deeper into what I've already used, but looking forward to expanding into new languages and frameworks.</li>
                 <li>I am passionate about making the web beautiful and user friendly.</li>
                 <li>I am willing to learn any sort of technology you need me to learn and am not married to any one language or framework. I chose the technologies above simply as a starting point but would love to explore others.</li>
-                <li>I have 7 years of experience working with customers in both office and retail environments. I am extremely proud of my ability to provide a positive customer experience, through empathy, listening, on time delivery, & quality. These soft skills can easily translate into working well with other web developers & understanding business & client needs. </li>
+                <li>I have 7 years of experience working with customers in both office and retail environments. I am extremely proud of my ability to provide a positive customer experience, through empathy, listening, on time delivery, & quality. These soft skills can easily translate into working in a team environment with other web developers & understanding client needs. </li>
               </ul>
             </div>
 
@@ -227,9 +232,9 @@ function App() {
               <h2>Fun Facts</h2>
               <ul>
                 <li>I love to cook, read, crochet, and be outside.</li>
-                <li>I currently work at a factory that has absolutely nothing to do with web development. I make large wire harnesses that go into the engines of commercial planes.</li>
                 <li>I went to school at Ferris State University and graduated with a Bachelor's in Graphic Media Management (printing).</li>
-                <li>I've primarily worked print related jobs, emphasizing on customer service and operating various kinds of digital printers. At these jobs, I've also done some light design work using InDesign, Photoshop, and MS Office.</li>
+                <li>I've primarily worked print related jobs, emphasizing on customer service and operating various kinds of digital printers. At these jobs, I've also done some design work using InDesign, Photoshop, and MS Office.</li>
+                <li>Because of my experience in the print industry, I understand the need to communicate with users clearly and ensure a website or app is user friendly. Just as it is important to ensure printed products tell a story and deliver a clear message to the target audience, it is equally important to do the same with web products.  Web development is simply another form of marketing. The difference is with web, you are not only dealing with fonts, colors, and graphics, but you are also dealing with load time, ease of navigation, browser compatability, and much more. But it is all for the same purpose. To drive a user to take an action such as click a button, sign up for a newsletter, or buy a product. Both web and print require a similar thought process in order to serve it's purpose successfully.</li>
               </ul>
             </div>
           </div>
@@ -240,9 +245,9 @@ function App() {
             <h2>About</h2>
             <p>I began teaching myself web development in April 2019. I started with the basics, HTML5 & CSS3, in order to create a solid foundation. Then I moved to Javascript and after that, ReactJS.</p>
 
-            <p>After spending hours upon hours practicing, experimenting, google searching, and utilizing many other resources, I have finally developed a proficiency in these technologies. Currently I am working on a side project in order to help me go deeper into vanilla Javascript as well as understand Objected Oriented Programming at a more advanced level. </p>
+            <p>After spending hours upon hours practicing, experimenting, google searching, and utilizing many other resources, I have finally developed a proficiency in these technologies.  </p>
 
-            <p>Along this journey, I also got to use a few backend technologies, including NodeJS, ExpressJS, and MongoDB/Mongoose. Although these have not been my focus, I do have a good understanding of how to use them.</p>
+            <p>Along this journey, I also got to use a few backend technologies, including NodeJS, ExpressJS, and MongoDB/Mongoose in order to understand how the backend works.</p>
           </div>
         </section>
 
