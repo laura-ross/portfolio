@@ -243,11 +243,13 @@ function App() {
         <section className="about" id="about">
           <div className="about-content section-global-styles">
             <h2>About</h2>
-            <p>I began teaching myself web development in April 2019. I started with the basics, HTML5 & CSS3, in order to create a solid foundation. Then I moved to Javascript and after that, ReactJS.</p>
+            <p>I went to school to learn print, but fell in love with web development.</p>
 
-            <p>After spending hours upon hours practicing, experimenting, google searching, and utilizing many other resources, I have finally developed a proficiency in these technologies.  </p>
+            <p>I was first introduced to web development in college, when I was nearly finished with my degree. I got my hands on a Head First HTML textbook and out of pure curiosity, decided to go through it. I had always been curious about how the web worked. What is this thing that I spend hours each day using? What is this huge communication platform that has totally transformed every fabric of our lives? That was my first introduction to web development and little did I know, it planted a seed of curiosity that would only grow as the years went by. </p>
 
-            <p>Along this journey, I also got to use a few backend technologies, including NodeJS, ExpressJS, and MongoDB/Mongoose in order to understand how the backend works.</p>
+            <p>Life got busy. And I never made a point to use that knowledge, but I tucked it away in the back of my mind to explore later. When life finally settled down a little bit, I decided to pick it up again. But this time, I did not stop with HTML and CSS. I went on to Javascript and then ReactJS and back end tools such as NodeJS, ExpressJS, MongDB, Mongoose, and how to communicate between the front and back end.</p>
+
+            <p>I realized the process of creating websites and apps makes me happy. It's the curiosity that drives me to keep learning new tech and the thrill of solving problems that keeps me building projects. It's also the desire to push the boundaries of web & software development. To create incredible, beautiful, and user friendly products. And the realization that the tech world is full of possibilities, languages, frameworks, libraries, and concepts to learn and explore. It's knowing that I'll never get bored. And that we probably haven't even scratched the surface of what's possible. That's what keeps me excited about this industry.</p>
           </div>
         </section>
 
